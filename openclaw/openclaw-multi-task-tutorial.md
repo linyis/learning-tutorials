@@ -164,6 +164,19 @@ https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=XXXX&s
 | OpenClaw 配置文件 | 主要設定檔 |
 | Gateway 日誌 | 問題排查日誌 |
 
+## Json Sample
+'''
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "botToken": "--", /* 請和 @BotFather 拿 /*
+      "groups" : {
+        "-100xxxxxxxxxx" : {"requireMention": false}
+      }
+    }
+  },
+
+'''
 ---
 
 ## 快速入門檢查清單
