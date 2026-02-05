@@ -171,7 +171,7 @@ https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=XXXX&s
       "enabled": true,
       "botToken": "--", /* 請和 @BotFather 拿 /*
       "groups" : {
-        "-100xxxxxxxxxx" : {"requireMention": false}
+        "-100xxxxxxxxxx" : {"requireMention": false} /* 不知道可以看 openclaw logs --follow /*
       }
     }
   },
