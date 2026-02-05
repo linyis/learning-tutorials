@@ -1,15 +1,9 @@
 # learning-tutorials Auto-Watch (Simple Version)
 $repoPath = "C:\Users\linyi\.openclaw\workspace\learning-tutorials"
-$pidFile = "$PSScriptRoot\watch.pid"
-
-# Save PID
-$PID | Out-File -FilePath $pidFile -Force
+$lastHash = ""
 
 Write-Host "Watching: $repoPath"
-Write-Host "PID: $PID"
 Write-Host "Press Ctrl+C to stop`n"
-
-$lastHash = ""
 
 while ($true) {
     $files = Get-ChildItem -Path $repoPath -Recurse -File -Include *.md,*.txt,*.ps1,*.bat,*.vbs -ErrorAction SilentlyContinue
