@@ -1,18 +1,22 @@
 # Check if watch-simple.ps1 is running
-$running = $false
+$pidFile = "$PSScriptRoot\watch.pid"
 
-Get-Process -Name powershell -ErrorAction SilentlyContinue | ForEach-Object {
-    $cmd = $_.CommandLine
-    if ($cmd -and $cmd.Contains("watch-simple.ps1")) {
-        $running = $true
+if (Test-Path $pidFile) {
+    $pid = Get-Content $pidFile
+    $proc = Get-Process -Id $pid -ErrorAction SilentlyContinue
+    
+    if ($proc) {
         Write-Host "✅ Watch is RUNNING"
-        Write-Host "PID: $($_.Id)"
+        Write-Host "PID: $pid"
         Write-Host ""
         Write-Host "To stop: Run watch-stop.ps1"
+    } else {
+        Remove-Item $pidFile -ErrorAction SilentlyContinue
+        Write-Host "❌ Watch is NOT running (stale PID file)"
+        Write-Host ""
+        Write-Host "To start: powershell -ExecutionPolicy Bypass -File watch-simple.ps1"
     }
-}
-
-if (-not $running) {
+} else {
     Write-Host "❌ Watch is NOT running"
     Write-Host ""
     Write-Host "To start: powershell -ExecutionPolicy Bypass -File watch-simple.ps1"
