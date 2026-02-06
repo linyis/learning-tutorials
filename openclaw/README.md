@@ -8,4 +8,5 @@
 | OpenClaw 指令集_2026-02-06 | [Openclaw指令集_2026-02-06.md](./Openclaw指令集_2026-02-06.md) |
 | Telegram 設定 | [Telegram.md](./Telegram.md) |
 | /avrss 技能 | [avrss-skill.md](./avrss-skill.md) |
+| /phonetts 技能 | [phonetts-skill.md](./phonetts-skill.md) |
 | /youtube-video-summary 技能 | [youtube-video-summary-skill.md](./youtube-video-summary-skill.md) |
