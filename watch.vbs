@@ -14,11 +14,11 @@ For Each objProcess in colProcesses
 Next
 
 If duplicateFound Then
-    WScript.Echo "Watch 已經在運行中！"
+    ' WScript.Echo "Watch 已經在運行中！"
     WScript.Quit 0
 End If
 
 Set WshShell = CreateObject("WScript.Shell")
 psCommand = "powershell -ExecutionPolicy Bypass -File """ & scriptDir & "\watch.ps1"""
 WshShell.Run psCommand, 0, False
-WScript.Echo "Watch 已啟動"
+'WScript.Echo "Watch 已啟動"
