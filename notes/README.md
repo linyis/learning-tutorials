@@ -2,69 +2,72 @@
 
 ## 現有筆記清單
 
-### OpenClaw 相關 (openclaw/)
-| 檔案 | 主題 |
-|------|------|
-| `youtube_OpenClaw-Windows-安裝教學.md` | OpenClaw Windows WSL 安裝完整教學 |
-| `youtube_pvlPkUauHis.md` | OpenClaw 高級使用技巧：模型容災、多 Agent 協作、記憶搜索 |
+### OpenClaw / OpenCloud 官方相關
+| 檔案 | 主題 | 影片 ID |
+|------|------|---------|
+| `youtube_OpenClaw-Windows-安裝教學.md` | OpenClaw Windows WSL 安裝完整教學 | 8DJfvK4QK5M |
+| `youtube_pvlPkUauHis.md` | OpenClaw 高級使用技巧：模型容災、多 Agent 協作、記憶搜索 | pvlPkUauHis |
+| `youtube_OpenCloud-Agent-教程.md` | OpenCloud Agent 教程與使用經驗分享 | masJoPqT-6A |
+| `youtube_OpenCloud-使用技巧.md` | OpenCloud 設定與使用技巧詳解 | oVEac2KKdC0 |
 
-### OpenCloud / AI Agent 教程
-| 檔案 | 主題 |
-|------|------|
-| `youtube_OAE1EWP8dIQ.md` | AI-ZENTA 教程：Agent 開發、函數調用、上下文管理 |
-| `youtube_AQaGloY8yZE.md` | 黃仁勳訪談：AI 企業應用、數據主權、工具使用策略 |
-| `youtube_N8N-AI-Agent-流程自動化.md` | N8N + AI Agent 流程自動化實踐 |
+### AI-ZENTA / OpenCloud 生態
+| 檔案 | 主題 | 影片 ID |
+|------|------|---------|
+| `youtube_OAE1EWP8dIQ.md` | AI-ZENTA 教程：Agent 開發、函數調用、上下文管理 | OAE1EWP8dIQ |
+| `youtube_AQaGloY8yZE.md` | 黃仁勳訪談：AI 企業應用策略、數據主權、工具使用 | AQaGloY8yZE |
+| `youtube_O9b8tLXCTYU.md` | OpenCloud AI 生態系與原理詳解 | O9b8tLXCTYU |
+| `youtube_N8N-AI-Agent-流程自動化.md` | N8N + AI Agent 流程自動化實踐 | _flMwzatago |
 
-### 開源項目與模型
-| 檔案 | 主題 |
-|------|------|
-| `youtube_Q48iixe1_D0.md` | NanonBot 項目介紹：RAG、AOMAgent、AI 研究框架 |
-| `youtube_MiniMind-AI模型.md` | MiniMind 開源項目：微型 GPT 訓練框架 |
-| `youtube_as12D1ltN8A.md` | 本地端模型 GPTOS120B 搭建踩坑記錄 |
+### AI 開源項目與工具
+| 檔案 | 主題 | 影片 ID |
+|------|------|---------|
+| `youtube_Q48iixe1_D0.md` | NanonBot 項目：RAG 優化、AOMAgent 框架介紹 | Q48iixe1_D0 |
+| `youtube_MiniMind-AI模型.md` | MiniMind 開源項目：微型 GPT 訓練框架教學 | ewycarYziTE |
+| `youtube_as12D1ltN8A.md` | 本地端模型 GPTOS120B 搭建踩坑記錄 | as12D1ltN8A |
+| `youtube_Meta-開源AI模型.md` | Meta 開源 AI 模型介紹與應用 | cgqndsCPO_U |
+| `youtube_MotoBot-智能體開發.md` | MotoBot 項目：智能體開發與實現 | fNKFCwoW9oo |
 
-### 實用工具筆記
-| 檔案 | 主題 |
+### 開發工具與技巧
+| 檔案 | 主題 | 影片 ID |
+|------|------|---------|
+| `youtube_Cursor-MCP-使用教程.md` | Cursor AI 編輯器 + MCP (Model Context Protocol) 教程 | jz4SxHZhJok |
+| `youtube_Agent-智能體.md` | AI 智能體開發相關內容 | EncNNv6mAZI |
+
+### 其他實用工具
+| 檔案 | 主題 | 影片 ID |
+|------|------|---------|
+| `youtube-download-yt-dlp.md` | YouTube 下載工具 yt-dlp 完整使用指南 | - |
+| `youtube_股票分析-價值投資.md` | 股票分析與價值投資相關內容 | dbpX4x4phZs |
+| `youtube_小米手環-設定攻略.md` | 小米手環設定與使用攻略 | - |
+
+### 待分類
+| 檔案 | 狀態 |
 |------|------|
-| `youtube-download-yt-dlp.md` | YouTube 下載工具 yt-dlp 使用指南 |
-| `opencloud-ai-ecology.md` | OpenCloud AI 生態系統與原理 |
+| `youtube_OpenClub-RNBN-新手入門.md` | 待確認內容 (ahkTaq5lJZk) |
 
 ---
 
-## 建議分類結構
+## 分類結構建議
 
 ```
 notes/
-├── openclaw/              # OpenClaw 相關筆記
+├── openclaw/              # OpenClaw 官方相關
 │   ├── 安裝教學/
 │   └── 使用技巧/
 ├── opencloud/             # OpenCloud / Agent 開發
+│   ├── AI-ZENTA/
+│   └── 生態系/
 ├── ai-projects/           # AI 開源項目
 │   ├── NanonBot/
 │   ├── MiniMind/
+│   ├── MotoBot/
 │   └── 本地模型部署/
 ├── tools/                 # 實用工具
 │   ├── yt-dlp/
-│   └── 其他工具/
+│   ├── Cursor-MCP/
+│   └── 其他/
 └── tutorials/            # 通用教程
 ```
-
----
-
-## 問題診斷
-
-### 已完成事項 ✅
-- [x] 重新命名 youtube_*.md 檔案為有意義的標題
-- [x] 整理 OpenClaw 相關筆記到 openclaw/ 目錄
-
-### 待整理
-| 檔案 | 狀態 |
-|------|------|
-| `youtube_Cursor-MCP-教程.md` | 需要重新命名（目前檔案不存在） |
-| `youtube_Meta-開源AI模型.md` | 需要重新命名（目前檔案不存在） |
-| `youtube_MotoBot-智能體開發.md` | 需要重新命名（目前檔案不存在） |
-| `youtube_OpenClub-RNBN-新手入門.md` | 需要重新命名（目前檔案不存在） |
-| `youtube_股票分析-價值投資.md` | 需要確認檔案是否存在 |
-| `youtube_小米手環-設定攻略.md` | 需要確認檔案是否存在 |
 
 ---
 
@@ -72,7 +75,7 @@ notes/
 
 ### 檔名格式
 ```
-YYYY-MM-DD-標題-關鍵詞.md
+youtube_影片ID-標題簡稱.md
 ```
 
 ### Front Matter
@@ -80,19 +83,23 @@ YYYY-MM-DD-標題-關鍵詞.md
 ---
 title: 標題
 date: YYYY-MM-DD
-tags: [tag1, tag2]
+source: https://youtu.be/影片ID
 ---
 ```
 
 ---
 
-## 執行順序
+## 執行進度
 
-1. ✅ 逐一檢查 `youtube_*.md` 筆記，確認是否還需要
-2. [ ] 有價值的筆記重新命名並分類到對應目錄
-3. [ ] 過時或無價值的筆記刪除
-4. [ ] 建立統一的命名規範
-5. [ ] 持續更新本 README.md
+### ✅ 已完成
+- [x] 整理所有 youtube_*.md 筆記列表
+- [x] 補充分類與影片 ID
+- [x] 移除了 [待確認] 標記
+
+### ⏳ 待處理
+- [ ] 移動筆記到對應分類目錄
+- [ ] 新增缺少的 Front Matter (日期、標籤)
+- [ ] 定期檢視並更新主題描述
 
 ---
 
