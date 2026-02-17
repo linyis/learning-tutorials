@@ -9,6 +9,7 @@
 | `youtube_pvlPkUauHis.md` | OpenClaw 高級使用技巧：模型容災、多 Agent 協作、記憶搜索 | pvlPkUauHis |
 | `youtube_OpenCloud-Agent-教程.md` | OpenCloud Agent 教程與使用經驗分享 | masJoPqT-6A |
 | `youtube_OpenCloud-使用技巧.md` | OpenCloud 設定與使用技巧詳解 | oVEac2KKdC0 |
+| `youtube_OpenCloud-訂閱整合.md` | OpenCloud 訂閱套餐整合：GPT/Claude/Gemini 免費 API | lWT6N6JnWE8 |
 
 ### AI-ZENTA / OpenCloud 生態
 | 檔案 | 主題 | 影片 ID |
@@ -17,6 +18,12 @@
 | `youtube_AQaGloY8yZE.md` | 黃仁勳訪談：AI 企業應用策略、數據主權、工具使用 | AQaGloY8yZE |
 | `youtube_O9b8tLXCTYU.md` | OpenCloud AI 生態系與原理詳解 | O9b8tLXCTYU |
 | `youtube_N8N-AI-Agent-流程自動化.md` | N8N + AI Agent 流程自動化實踐 | _flMwzatago |
+| `youtube_OpenCloud-資源優化.md` | OpenCloud 調用 Cloud Hooks 資源優化 | iJEfIc1mrsc |
+
+### AI 模型發布
+| 檔案 | 主題 | 影片 ID |
+|------|------|---------|
+| `youtube_KMi5-模型發布.md` | KMi5 模型發布與功能演示 | 27LASCIQI2M |
 
 ### AI 開源項目與工具
 | 檔案 | 主題 | 影片 ID |
@@ -32,6 +39,8 @@
 |------|------|---------|
 | `youtube_Cursor-MCP-使用教程.md` | Cursor AI 編輯器 + MCP (Model Context Protocol) 教程 | jz4SxHZhJok |
 | `youtube_Agent-智能體.md` | AI 智能體開發相關內容 | EncNNv6mAZI |
+| `youtube_Superpowers-工作流.md` | Superpowers 開源編程工作流 | TMmq9Wx1AIQ |
+| `youtube_Prompt-文檔生成.md` | Prompt 長期記憶文檔生成 | YCswP_xmxu0 |
 
 ### 其他實用工具
 | 檔案 | 主題 | 影片 ID |
@@ -41,6 +50,20 @@
 | `youtube_小米手環-設定攻略.md` | 小米手環設定與使用攻略 | - |
 
 ### 待分類
+| 檔案 | 主題 |
+|------|------|
+| `youtube_Agent-概念解說.md` | AI 智能體開發 |
+| `youtube_Cursor-MCP-使用教學.md` | Cursor-MCP 使用教程 |
+| `youtube_Meta-小型AI模型.md` | Meta 開源 AI 模型 |
+| `youtube_MotoBot-使用教學.md` | MotoBot 智能體開發 |
+| `youtube_N8N-AI-Agent-搭建教學.md` | N8N 流程自動化 |
+| `youtube_OpenCloud-Agent-技巧.md` | OpenCloud Agent 教程 |
+| `youtube_OpenCloud-必裝技能.md` | OpenCloud 使用技巧 |
+| `youtube_OpenClub-RNBN-盒子部署.md` | OpenClub RNBN 新手 |
+| `youtube_哈佛教授-蘭格心理學.md` | 待分類 |
+| `youtube_校園受歡迎程度-心理學分析.md` | 待分類 |
+
+### 待分類（原始）
 | 檔案 | 狀態 |
 |------|------|
 | `youtube_OpenClub-RNBN-新手入門.md` | 待確認內容 (ahkTaq5lJZk) |
@@ -103,4 +126,4 @@ source: https://youtu.be/影片ID
 
 ---
 
-**更新日期**：2026-02-10
+**更新日期**：2026-02-13
